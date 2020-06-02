@@ -15,7 +15,7 @@ def line(katz_deli)
   end
 end
 =======
-
+set_counter = 0
 def take_a_number_2 (katz_deli)
  
  
