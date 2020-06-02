@@ -18,7 +18,7 @@ end
 
 def take_a_number_2 (katz_deli)
  
- set_counter = 0
+ 
  set_counter +1
  katz_deli << set_counter
   puts "Welcome, You are number #{set_counter} in line."
