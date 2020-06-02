@@ -20,17 +20,11 @@ end
 
 
 
->>>>>>> 2c6537f7183bf1155008fc16e18220ec7e1632a2
 def take_a_number(katz_deli, name)
   katz_deli << name
   puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
 end
-<<<<<<< HEAD
-=======
 
-
-
->>>>>>> 2c6537f7183bf1155008fc16e18220ec7e1632a2
 def now_serving(katz_deli)
   if katz_deli.empty?
     puts "There is nobody waiting to be served!"
