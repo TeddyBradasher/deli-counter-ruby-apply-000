@@ -16,7 +16,15 @@ def line(katz_deli)
 end
 =======
 
-def take_a_number_2 (katz_deli, name)
+def take_a_number_2 (katz_deli)
+ katz_deli << name
+ set_counter = 0
+  puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
+end
+
+
+
+
 
 
 
