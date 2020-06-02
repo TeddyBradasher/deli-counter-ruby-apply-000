@@ -1,5 +1,6 @@
 katz_deli = []
 
+<<<<<<< HEAD
 def line(katz_deli)
   number = 1
   line_positions = []
@@ -13,10 +14,23 @@ def line(katz_deli)
     puts "The line is currently: #{line_positions.join(" ")}"
   end
 end
+=======
+
+
+
+
+
+>>>>>>> 2c6537f7183bf1155008fc16e18220ec7e1632a2
 def take_a_number(katz_deli, name)
   katz_deli << name
   puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
 end
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 2c6537f7183bf1155008fc16e18220ec7e1632a2
 def now_serving(katz_deli)
   if katz_deli.empty?
     puts "There is nobody waiting to be served!"
@@ -25,3 +39,17 @@ def now_serving(katz_deli)
     katz_deli.shift
   end
 end
+<<<<<<< HEAD
+=======
+def line(katz_deli)
+  position = 0
+  name = []
+  if katz_deli.empty? == false
+   katz_deli.each do |index, name|
+     puts "The line is currently: #{position+1}.#{name}"
+ end
+     elsif katz_deli.empty? == true
+  puts "The line is currently empty."
+ end
+end
+>>>>>>> 2c6537f7183bf1155008fc16e18220ec7e1632a2
