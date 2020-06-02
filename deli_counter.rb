@@ -17,9 +17,11 @@ end
 =======
 
 def take_a_number_2 (katz_deli)
- katz_deli << name
+ 
  set_counter = 0
-  puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
+ set_counter +1
+ katz_deli << set_counter
+  puts "Welcome, You are number #{set_counter} in line."
 end
 
 
